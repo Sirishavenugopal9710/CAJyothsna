@@ -1,0 +1,14 @@
+.manage{
+    margin-left: 5%;
+    font-size: x-large;
+    margin-top: 2%;
+    font-family: -webkit-body;
+}
+@media only screen and (min-width:360px) and (max-width:740px){
+    .manage {
+        margin-left: 5%;
+        font-size: medium;
+        margin-top: 2%;
+        font-family: -webkit-body;
+    }
+    }

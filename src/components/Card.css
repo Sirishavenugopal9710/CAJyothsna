@@ -1,0 +1,97 @@
+.textBox {
+  width: 332px;
+  height: 281px;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 5px;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+  .textBox span {
+    position: absolute;
+    white-space:normal;
+    transform: translatey(0);
+    transition: 1s;
+    margin-top: 8%;
+  }
+  .textBox:hover span {
+    transform: translatey(calc(200px - 100%));
+   
+  }
+  .textBox:hover{
+      background-color: #f9bf1e;
+
+  }
+.ca_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+.why-us .box p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.p {
+  font-size: large;
+  width: 100%;
+  color: #aaaaaa;
+  font-family: 'Font Awesome 5 Brands';
+}
+.p:hover{
+  color:black;
+}
+@media only screen and (min-width:360px) and (max-width:740px){
+.ca_card {
+  display: grid;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+.textBox {
+  width: 332px;
+  height: 281px;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 5px;
+  position: relative;
+  background-color: black;
+  color: white;
+  margin-top: 2%;
+}
+}
+
+@media only screen and (min-width:360px) and (max-width:740px) and (orientation : landscape){
+.ca_card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.textBox {
+  width: 229px;
+  height: 302px;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 5px;
+  position: relative;
+  background-color: black;
+  color: white;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+.textBox {
+  width: 231px;
+  height: 263px;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 5px;
+  position: relative;
+  background-color: black;
+  color: white;
+  margin-left: 0%;
+}
+}

@@ -1,0 +1,46 @@
+.indirect{
+    margin-left: 7%;
+    font-size: x-large;
+    margin-top: 2%;
+    font-family: -webkit-body;
+    color: white;
+}
+.indirectly{
+    background:black;
+    margin-top:6.5%;
+    opacity:0.8;
+    height:50vh;
+}
+
+@media only screen and (min-width:360px) and (max-width:740px){
+    .indirectly {
+        background: black;
+        margin-top: 27.5%;
+        opacity: 0.8;
+        height: 70vh;
+    }
+    .indirect {
+        margin-left: 5%;
+        font-size: medium;
+        margin-top: 2%;
+        font-family: -webkit-body;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:740px) and (orientation : landscape){
+    .indirectly {
+        background: black;
+        margin-top: 9.5%;
+        opacity: 0.85;
+        height: 99vh;
+    }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:1024px){
+
+    .indirectly {
+        background: black;
+        margin-top: 6.5%;
+        opacity: 0.8;
+        height: 43vh;
+    }
+}
